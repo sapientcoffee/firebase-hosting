@@ -2,6 +2,7 @@ image: europe-docker.pkg.dev/coffee-with-rob/platform-ops/platform-ops:latest
 
 tasks:
   - init: |
+      curl -sL https://firebase.tools | bash
       firebase login:ci --no-localhost
       printf '\033[0;34m\033[1mINFO:\033[0m %s\n' "You can now export variable FIREBASE_TOKEN to avoid parsing 'firebase subcommand --token YOUR_TOKEN' for each usage of firebase"
       printf '\033[0;34m\033[1mINFO:\033[0m %s\n' "The export of FIREBASE_TOKEN variable can be done account-wide and specified per repository on https://gitpod.io/settings/"      
