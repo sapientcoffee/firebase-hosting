@@ -1,12 +1,10 @@
-"hosting": {
-    // ...
-  
-    // Add the "rewrites" attribute within "hosting"
-    "rewrites": [ {
-      "source": "/coffee",
-      "run": {
-        "serviceId": "hellocoffee",  // "service name" (from when you deployed the container image)
-        "region": "us-central1"     // optional (if omitted, default is us-central1)
-      }
-    } ]
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
+}
