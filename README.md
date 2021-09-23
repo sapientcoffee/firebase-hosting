@@ -11,6 +11,24 @@ firebase hosting init
 firebase deploy --only hosting
 
 
+### Create Dev/Prod projects
+
+```bash
+# Swap between projects
+firebase use
+
+# To create new aliases, for example link "dev" to one of the projects
+firebase use --add
+```
+
+This will create a file `.firebaserc` which will have the config, you can also alter this directly. An example is;
+
+```json
+
+
+```
+
+
 ## Build Container Image
 
 ### Dockerfile 
