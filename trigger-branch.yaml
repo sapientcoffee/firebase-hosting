@@ -1,0 +1,10 @@
+filename: cloudbuild.yaml
+github:
+  name: firebase-hosting
+  owner: sapientcoffee
+  push:
+    branch: ^main$
+    invertRegex: true
+name: Firebase-hosting-branch
+tags:
+- firebase
