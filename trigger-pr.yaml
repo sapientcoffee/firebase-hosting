@@ -1,0 +1,10 @@
+createTime: '2021-09-23T16:04:19.538280446Z'
+filename: cloudbuild-staging.yaml
+github:
+  name: firebase-hosting
+  owner: sapientcoffee
+  pullRequest:
+    branch: ^main$
+    commentControl: COMMENTS_ENABLED_FOR_EXTERNAL_CONTRIBUTORS_ONLY
+id: fc4deb66-8750-492b-9b5f-cc05b88c2dff
+name: Firebase-hosting-pr

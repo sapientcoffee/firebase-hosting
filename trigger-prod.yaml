@@ -1,0 +1,11 @@
+approvalConfig:
+  approvalRequired: true
+createTime: '2021-09-23T16:06:28.736084521Z'
+filename: cloudbuild-prod.yaml
+github:
+  name: firebase-hosting
+  owner: sapientcoffee
+  push:
+    branch: ^main$
+id: 3a22b9d5-b646-452f-ad6d-f614413989aa
+name: firebase-hosting-prod
