@@ -5,6 +5,7 @@
 You will require;
 * 2x GCP Projects with Firebase eneabled
 * GitHub repo linked to the GCP project(s)
+* Enable Cloud Build API and correct SA
 
 
 export PROJECT_ID_STAGE="coffee-stage"

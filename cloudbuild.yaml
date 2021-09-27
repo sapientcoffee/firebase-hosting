@@ -16,5 +16,5 @@
 steps:
 - name: gcr.io/coffee-with-rob/firebase
   # args: ['hosting:channel:deploy', 'new-feature-pipeline', '--project=coffee-with-rob', '--expires=1d']
-  args: ['hosting:clone', '$_SOURCE_SITE_ID:$_SOURCE_CHANNEL_ID $_TARGET_SITE_ID:$_TARGET_CHANNEL_ID']
+  args: ['hosting:clone', '${PROJECT_ID}:${_SOURCE_CHANNEL_ID}', '${PROJECT_ID}:${_TARGET_CHANNEL_ID}']
 # [END cloudbuild_firebase_deploy]
