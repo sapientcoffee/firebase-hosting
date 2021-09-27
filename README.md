@@ -1,7 +1,14 @@
 # Firebase Hotsing Demo
 
 ## Setup
-export PROJECT_ID=
+
+You will require;
+* 2x GCP Projects with Firebase eneabled
+* GitHub repo linked to the GCP project(s)
+
+
+export PROJECT_ID_STAGE="coffee-stage"
+export PROJECT_ID_PROD="coffee-live"
 firebase hosting init
 
 ### Cloud Build Firebase Community Builder

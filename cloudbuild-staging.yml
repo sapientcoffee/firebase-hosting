@@ -15,5 +15,6 @@
 # [START cloudbuild_firebase_deploy]
 steps:
 - name: gcr.io/coffee-with-rob/firebase
-  args: ['hosting:channel:deploy', 'new-feature-pipeline', '--project=coffee-with-rob-staging', '--expires=1d']
+  # args: ['hosting:channel:deploy', 'new-feature-pipeline', '--project=coffee-with-rob-staging', '--expires=1d']
+  args: ['hosting:channel:deploy', 'new-feature-pipeline', '--expires=1d']
 # [END cloudbuild_firebase_deploy]
