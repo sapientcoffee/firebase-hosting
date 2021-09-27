@@ -15,5 +15,5 @@
 # [START cloudbuild_firebase_deploy]
 steps:
 - name: gcr.io/coffee-with-rob/firebase
-  args: ['hosting:channel:deploy', '$_BRANCH_NAME', '--expires=1d']
+  args: ['hosting:channel:deploy', '$BRANCH_NAME', '--expires=1d']
 # [END cloudbuild_firebase_deploy]
